@@ -1,0 +1,33 @@
+body{
+	background-color: lightcyan;
+}
+
+table {
+	border: 3px solid red;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+
+td{
+	border: 2px solid blue;
+	padding: 10px;
+	/*background-color: cyan;*/
+}
+
+th {
+	border: 2px solid #000064;
+	padding: 20px;
+}
+
+div {
+	border: 3px solid yellow;
+}
+
+.green{
+	background-color: lightgreen;
+}
+
+.blue{
+	background-color: lightblue;
+	text-align: center;
+}

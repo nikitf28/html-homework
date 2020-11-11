@@ -1,0 +1,76 @@
+body{
+  font-size: 20px;
+  font-family: sans-serif;
+  background-image: url(../background.jpg);
+}
+
+.backgr{
+  /*position: fixed;*/
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.65);
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  /*border: 3px solid red;*/
+}
+
+.field{
+  height: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  border-color: #4682B4;
+  border-radius: 5px;
+  outline: none;
+}
+
+.field:focus{
+  outline: none;
+  border-radius: 5px;
+  border-color: #0000CD;
+}
+
+.btn{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sBtn {
+  border-radius: 7px;
+  border-color: #4682B4;
+  background: #4169E1;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+}
+
+.sBtn:focus{
+  outline: none;
+  border-radius: 7px;
+  border-color: #0000CD;
+}
+
+select {
+  height: 20px;
+  width: 200px;
+}
+
+option {
+  height: 20px;
+}
+
+h1 {
+  size: 35px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.req {
+  color: #DC143C;
+}

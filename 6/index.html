@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Опрос студентов – ФБКиИ ИГУ"</title>
+        <link rel="stylesheet" type="text/css" href="./css/stylesMain.css">
+    </head>
+    <body>
+      <div class="backgr">
+        <h1>Опрос студентов ФБКиИ ИГУ</h1>
+        <form action="http://s2.dolbak.ru/anketa/sendData" method="post"
+        oninput="change1.value=range1.value, change2.value=range2.value">
+          <fieldset>
+            <label>
+              Направление: <span class="req">*</span><br>
+              <select class="selector" name="stydySelector" required>
+                <option selected> </option>
+                <option value="Управление персоналом">Управление персоналом</option>
+                <option value="Реклама и связи с общественностью">Реклама и связи с общественностью</option>
+                <option value="Сервис">Сервис</option>
+                <option value="Туризм">Туризм</option>
+                <option value="Прикладная информатика (Разработка программного обеспечения)">Прикладная информатика (Разработка программного обеспечения)</option>
+                <option value="Прикладная информатика (Прикладная информатика в дизайне)">Прикладная информатика (Прикладная информатика в дизайне)</option>
+                <option value="Прикладная информатика (Прикладная информатика в бизнесе)">Прикладная информатика (Прикладная информатика в бизнесе)</option>
+              </select>
+            </label>
+          <br>
+          <label>
+            Курс: <span class="req">*</span><br>
+            <input type="radio" name="level" value="1" required>1 курс
+            <input type="radio" name="level" value="2">2 курс
+            <input type="radio" name="level" value="3">3 курс
+            <input type="radio" name="level" value="4">4 курс
+          </label>
+          <br>
+          <label>
+            Пол <span class="req">*</span><br>
+            <input type="radio" name="gender" value="m" required>Мужской
+            <input type="radio" name="gender" value="f">Женский
+            <input type="radio" name="gender" value="n">Не важно
+          </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              Ваши любимые предметы:<br>
+              <input class="field" type="text" name="subject" value="">
+            </label>
+            <br>
+            <label>
+              Какие предметы вы бы хотели убрать из программы ВУЗа?<br>
+              <select class="unlSubjSelector" name="unlikeSubjects[]" multiple size="7">
+                <option value="БЖД" >БЖД</option>
+                <option value="Иностранный язык" >Иностранный язык</option>
+                <option value="Информатика" >Информатика</option>
+                <option value="История" >История</option>
+                <option value="Физкультура (практика)" >Физкультура (практика)</option>
+                <option value="Физкультура (теория)" >Физкультура (теория)</option>
+                <option value="Экономика" >Экономика</option>
+
+              </select>
+            </label>
+            <br>
+            <label>
+              Ваши замечания по учёбе:<br>
+              <input class="field" type="text" name="studyOpinion" value="">
+            </label>
+            <br>
+            <label>
+              Ваше мнение по техническому оснащению факультета:<br>
+              <input class="field" type="text" name="techOpinion" value="">
+            </label>
+            <br>
+            <label>
+              Ваше мнение по поводу развлечений:<br>
+              <input class="field" type="text" name="funOpinion" value="">
+            </label>
+            <br>
+            <label>
+              Желаемое время начала и окончания занятий: <br>
+              <input  type="time" name="timeStart" value="08:30"> – <input type="time" name="timeStart" value="13:40">
+            </label>
+            <br>
+            <label>
+              С каким цветом у вас ассоциируется учёба на нашем факультете? <br>
+              <input type="color" name="colorStudy" value="#4682B4">
+            </label>
+            <br>
+            <label>
+              Оцените ваши впечатления от факультета по шкале от 1 до 10? <br>
+              1<input class="range" name="range1" type="range" min="1" max="10" step="1" value="7">10 <br>
+              <output name="change1">7</output>
+            </label>
+            <br>
+            <br>
+            <label>
+              Какова вероятность того, что вы порекомендуете наш факультет друзьям по шкале от 1 до 10? <br>
+              1<input class="range" name="range2" type="range" min="1" max="10" step="1" value="7">10 <br>
+              <output name="change2">7</output>
+            </label>
+            <br>
+            <br>
+            <label>
+              Если у вас есть ещё какие-нибудь впечатления или просьбы, можете описать их тут:<br>
+              <textarea name="opinion"></textarea>
+            </label>
+          </fieldset>
+          <input class="sBtn" type="submit" name="" value="Отправить">
+          <br>
+          <br>
+          <span class="req">*</span> Поля, обязательные для заполнения.
+        </form>
+      </div>
+    </body>
+</html>

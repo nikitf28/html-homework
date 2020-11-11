@@ -1,0 +1,25 @@
+body{
+	background-color: lightblue;
+	font-family: serif;
+	font-size: 30px;
+}
+
+.p1 {
+	color: green;
+}
+
+.p2 {
+	color: yellow;
+}
+
+.p3 {
+	color: violet;
+}
+
+i {
+	color: red;
+}
+
+b {
+	color: blue;
+}
