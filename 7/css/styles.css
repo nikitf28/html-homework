@@ -1,0 +1,88 @@
+.menuText{
+  text-decoration: none;
+  color: black;
+}
+
+.head {
+  margin-top: 0px;
+  width: 100%;
+  background: radial-gradient(rgb(255, 238, 64), rgb(239, 159, 20));
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.head::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo{
+  width: 70px;
+  margin-left: 4%;
+  margin-top: 30px;
+  float: left;
+}
+
+.menuItem {
+  float: left;
+  margin-left: 4%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu {
+  padding-top: 55px;
+  padding-left: 20%;
+}
+
+.computer {
+  width: 40%;
+  float: left;
+  margin-right: 100px;
+}
+
+
+
+.motivateText{
+  float: left;
+  width: 35%;
+  min-width: 400px;
+  margin-right: 5%;
+}
+
+.lvl2{
+  padding-top: 150px;
+  margin-left: 4%;
+}
+
+.mP1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mP2 {
+  font-size: 20px;
+}
+
+.order {
+  margin-top: 50px;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(0, 183, 111);
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .computer {
+    display: none;
+  }
+  .motivateText{
+    width: 80%;
+    padding-left: 10%;
+  }
+}
