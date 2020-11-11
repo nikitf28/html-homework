@@ -212,6 +212,49 @@ body{
   font-size: 20px;
 }
 
+.linkForm{
+  background: rgb(239, 239, 239);
+}
+
+.linkForm::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.learnForm{
+  margin-left: 4%;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.formHeader{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 4%;
+  padding-top: 80px;
+}
+
+label{
+  text-align: right;
+}
+
+
+.fleft{
+  margin-left: 100px;
+}
+
+.field{
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.radio{
+  margin-bottom: 15px;
+}
+
 @media (min-width: 1151px){
   .commentMore{
     margin-right: 15%;
