@@ -182,7 +182,7 @@ body{
 
 .commentText{
   float: left;
-  margin-left: 4%;
+  margin-left: 5%;
   width: 60%;
 }
 
@@ -214,7 +214,7 @@ body{
 
 @media (min-width: 1151px){
   .commentMore{
-    margin-right: 20%;
+    margin-right: 15%;
   }
 }
 
