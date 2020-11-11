@@ -102,7 +102,7 @@ body{
 }
 
 .icon{
-  width: 100px;
+  width: 150px;
 }
 
 .achivHeader{
@@ -114,6 +114,108 @@ body{
 .achivText{
   font-size: 20px;
   margin-top: 25px;
+}
+
+.comments{
+  background: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+
+.comments::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.commentHeader{
+  margin-left: 4%;
+  text-transform: uppercase;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.commentMore{
+  float: right;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 5%;
+  font-weight: bolder;
+}
+
+.dots{
+  color: rgb(0, 183, 111);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.secret{
+  color: white;
+}
+
+.lvl2{
+  margin-top: 50px;
+}
+
+.commentAvatar{
+  border-radius: 50%;
+  height: 150px;
+  float: left;
+}
+
+.userInfo{
+  float: left;
+  margin-left: 4%;
+}
+
+.name{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.graduate{
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(127, 127, 127);
+}
+
+.commentText{
+  float: left;
+  margin-left: 4%;
+  width: 60%;
+}
+
+.quaote{
+  font-size: 100px;
+  color: rgb(235, 235, 235);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.qRight{
+  float: right;
+}
+
+.qLeft{
+  float: left;
+  margin-top: -80px;
+  margin-left: -48px;
+}
+
+.commentName{
+  margin-left: -150px;
+}
+
+.quoteText{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media (min-width: 1151px){
+  .commentMore{
+    margin-right: 20%;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -132,4 +234,20 @@ body{
     margin-top: 50px;
     margin-bottom: 30px;
   }
+  .commentText{
+    min-width: 500px;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+  .commentAvatar{
+    margin-left: 10%;
+  }
+  .commentHeader{
+    margin-left: 10%;
+  }
+  .qLeft{
+    margin-top: -48px;
+    margin-left: -40px;
+  }
+
 }
