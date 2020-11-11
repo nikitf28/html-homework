@@ -1,3 +1,7 @@
+body{
+  font-family: sans-serif;
+}
+
 .menuText{
   text-decoration: none;
   color: black;
@@ -37,18 +41,17 @@
 }
 
 .computer {
-  width: 40%;
+  width: 650px;
   float: left;
-  margin-right: 100px;
+  margin-left: 5%;
 }
 
 
 
 .motivateText{
   float: left;
-  width: 35%;
-  min-width: 400px;
-  margin-right: 5%;
+  width: 30%;
+  min-width: 300px;
 }
 
 .lvl2{
@@ -75,14 +78,58 @@
   font-size: 20px;
   font-weight: bolder;
   color: white;
+  margin-bottom: 120px;
 }
 
-@media (max-width: 1100px) {
+.middle1{
+  background: rgb(239, 239, 239);
+}
+
+.middle1::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.achivments{
+  float: left;
+  width: 25%;
+  padding-left: 4%;
+  max-width: 450px;
+  min-width: 300px;
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
+
+.icon{
+  width: 100px;
+}
+
+.achivHeader{
+  padding-top: 5px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.achivText{
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+@media (max-width: 1150px) {
   .computer {
     display: none;
   }
   .motivateText{
-    width: 80%;
+    padding-top: 30px;
+    width: 60%;
     padding-left: 10%;
+  }
+  .achivments{
+    padding-left: 10%;
+    min-width: 400px;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 }
