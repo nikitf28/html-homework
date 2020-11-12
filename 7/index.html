@@ -107,26 +107,46 @@
         <div class="formHeader">
           Обратная связь
         </div>
-        <form class="learnForm" action="index.html" method="post">
-          <input class="fleft field" type="text" name="name" value=""
-           placeholder="Представьтесь, пожалуйста" required> <br>
-           <input  class="fleft field" type="text" name="age" value=""
-            placeholder="Укажите возраст, хотя бы приблизительно" required><br>
-            <label for="">
-            <input class="fleft radio" type="radio" name="gender" value="M" required>
-            Мужской</label>
-            <label for="">
-            <input class="radio" type="radio" name="gender" value="F"required>
-            Женский</label>
-            <br>
-           <textarea  class="fleft" name="question" rows="8" cols="80"
-             placeholder="Сообщите всё, что считаете нужным."></textarea>
-           <input type="submit" name="" value="">
+        <div class="formAndLabel">
+          <div class="labels">
+            <div class="label">
+              ФИО:
+            </div>
+            <div class="label">
+              Возраст:
+            </div>
+            <div class="label">
+              Пол:
+            </div>
+            <div class="label">
+              Вопрос:
+            </div>
 
-
-
-        </form>
-        </div>
+          </div>
+          <form class="learnForm" action="sendData" method="post">
+            <input class="fleft field" type="text" name="name" value=""
+             placeholder="Представьтесь, пожалуйста" required> <br>
+             <input  class="fleft field" type="text" name="age" value=""
+              placeholder="Укажите возраст, хотя бы приблизительно" required><br>
+              <label for="">
+              <input class="fleft radio" type="radio" name="gender" value="M" required>
+              Мужской</label>
+              <label for="">
+              <input class="radio" type="radio" name="gender" value="F"required>
+              Женский</label>
+              <br>
+             <textarea  class="fleft" name="question" rows="8" cols="80"
+               placeholder="Сообщите всё, что считаете нужным" required></textarea>
+              <br>
+             <input class="sendBtn" type="submit" name="" value="ОТПРАВИТЬ">
+          </form>
+      </div>
+      <div class="noteToForm">
+        <p class="noteHeader">Заинтересовались обучением на нашей кафедре?</p>
+        <p>Заполните короткую форму обратной сввязи и отправьте нам.</p>
+        <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+        <p class="warnNote"><span class="warn">Внимание!</span> Все поля обязательны для заполнения</p>
+      </div>
       </div>
       </div>
     </body>
