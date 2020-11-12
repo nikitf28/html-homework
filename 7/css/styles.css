@@ -184,7 +184,8 @@ body{
 .commentText{
   float: left;
   margin-left: 5%;
-  width: 60%;
+  width: 50%;
+
 }
 
 .quaote{
@@ -351,6 +352,7 @@ textarea{
   }
   .commentText{
     min-width: 500px;
+    width: 70%;
     margin-top: 20px;
     margin-left: 20%;
   }
