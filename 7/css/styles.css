@@ -1,5 +1,10 @@
 body{
   font-family: sans-serif;
+  margin: 0;
+}
+
+.page{
+  padding-top: -50px;
 }
 
 .menuText{
@@ -9,7 +14,6 @@ body{
 
 .head {
   margin-top: 0px;
-  width: 100%;
   background: radial-gradient(rgb(255, 238, 64), rgb(239, 159, 20));
   margin: 0px;
   font-family: sans-serif;
@@ -22,7 +26,7 @@ body{
 }
 
 .logo{
-  width: 70px;
+  width: 100px;
   margin-left: 7%;
   margin-top: 30px;
   float: left;
@@ -119,7 +123,7 @@ body{
 
 .comments{
   background: rgb(255, 255, 255);
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .comments::after{
@@ -328,6 +332,100 @@ textarea{
   margin-top: 70px;
 }
 
+.footer{
+  background-color: rgb(31, 32, 34);
+  font-size: 20px;
+}
+
+.footer::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.leftColFooter{
+  float: left;
+}
+
+.logoFooter{
+  width: 100px;
+}
+
+.leftColFooter{
+  margin-top: 70px;
+  margin-left: 7%;
+  color: rgb(233, 234, 236);
+  width: 15%;
+}
+
+.linkFooterWhite{
+  text-decoration:none;
+  color: rgb(233, 234, 236);
+}
+
+.footerLefrPar{
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.righFooterPart{
+  float: left;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  min-width: 70%;
+}
+
+.topRightPart::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footerCol{
+  float: left;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+.footerColText{
+  color: rgb(208, 179, 24);
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.footerColHeader{
+  color: rgb(233, 234, 236);
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.topRightPart{
+  width: 100%;
+}
+
+.bottomRightPart{
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.bottomNote{
+  color: rgb(233, 234, 236);
+  float: left;
+  font-weight: bolder;
+}
+
+.socialIcon{
+  height: 50px;
+  float: left;
+  margin-left: 25px;
+}
+
+.socialIconsGroup{
+  float: left;
+  margin-left: 200px;
+}
+
 @media (min-width: 1151px){
   .commentMore{
     margin-right: 15%;
@@ -387,5 +485,22 @@ textarea{
   .noteToForm{
     margin-left: 20%;
     max-width: 600px;
+  }
+  .footerCol{
+    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  .righFooterPart{
+    width: 60%;
+  }
+  .socialIcon{
+    margin-top: 50px;
+  }
+  .leftColFooter{
+    margin-left: 20%;
+  }
+  .righFooterPart{
+    margin-left: 15%
   }
 }
