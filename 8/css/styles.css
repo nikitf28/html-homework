@@ -176,6 +176,33 @@ td{
   padding-left: 20px;
 }
 
+footer{
+  background: rgb(31, 32, 34);
+  display: table-row-group;
+
+}
+
+.footer_lvl_1{
+  display: table-row;
+}
+
+.footer_left{
+  display: table-cell;
+  width: 200px;
+}
+
+.footer_logo{
+  width: 100px;
+  margin-top: 75px;
+  margin-left: 75px;
+}
+
+.footer_adress{
+  margin-top: 75px;
+  margin-left: 75px;
+  color: white;
+}
+
 a{
   text-decoration: none;
   color: inherit;
