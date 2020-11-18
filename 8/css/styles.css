@@ -1,6 +1,7 @@
 body{
   font-family: sans-serif;
   margin: 0;
+  font-size: 20px;
 }
 
 .page{
@@ -12,36 +13,66 @@ body{
 
 header{
   background: radial-gradient(rgb(255, 238, 64), rgb(239, 159, 20));
-  height: auto;
-  display: table-header-group;
+  height: 150px;
+  display: table-row-group;
   width: 100%;
 }
 
 .header_lvl1{
   display: table;
-  margin-top: 50px;
+  width: 1200px;
+  height: 100%;
 }
 
 .header_logo{
   width: 100px;
-  margin-left: 7%;
-  margin-top: 30px;
-    display: table-column;
+  padding-top: 50px;
+  padding-left: 100px;
+  display: table-cell;
 }
 
 .header_menu{
-  margin-top: 25px;
-  display: table-column;
+  display: table-cell;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
 }
 
 .header_menu_item{
   display: table-cell;
+  padding-left: 50px;
+  color: black;
+  font-weight: bold;
 }
 
-@media (min-width: 1151px){
+.header_lvl2{
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: table-row;
 
 }
 
-@media (max-width: 1150px) {
+.header_lvl2_name{
+  display: table-cell;
+  padding-top: 50px;
+  padding-left: 100px;
+}
 
+.header_lvl3{
+    font-size: 15px;
+    text-transform: uppercase;
+    display: table-cell;
+    padding-bottom: 70px;
+}
+
+.header_lvl3_name{
+  display: table-cell;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
