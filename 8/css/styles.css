@@ -13,8 +13,7 @@ body{
 
 header{
   background: radial-gradient(rgb(251, 227, 56), rgb(239, 159, 20));
-  height: 150px;
-  display: table-row-group;
+  display: table;
   width: 100%;
 }
 
@@ -46,6 +45,11 @@ header{
   font-weight: bold;
 }
 
+.header_down{
+  display: table;
+  width: 100%;
+}
+
 .header_lvl2{
   font-size: 35px;
   font-weight: bold;
@@ -58,12 +62,13 @@ header{
   display: table-cell;
   padding-top: 80px;
   padding-left: 100px;
+  width: 90%;
 }
 
 .header_lvl3{
     font-size: 15px;
     text-transform: uppercase;
-    display: table-cell;
+    display: table-row;
     padding-bottom: 70px;
 }
 
@@ -71,6 +76,11 @@ header{
   display: table-cell;
   padding-top: 30px;
   padding-left: 100px;
+}
+
+.header_lvl4{
+  display: table-row;
+  height: 50px;
 }
 
 main{
@@ -178,7 +188,8 @@ td{
 
 footer{
   background: rgb(31, 32, 34);
-  display: table-row-group;
+  display: table;
+  width: 100%;
 
 }
 
@@ -187,20 +198,65 @@ footer{
 }
 
 .footer_left{
+  padding-left: 100px;
   display: table-cell;
-  width: 200px;
+  width: 300px;
 }
 
 .footer_logo{
   width: 100px;
   margin-top: 75px;
-  margin-left: 75px;
 }
 
 .footer_adress{
-  margin-top: 75px;
-  margin-left: 75px;
-  color: white;
+  margin-top: 55px;
+  color: rgb(233, 234, 236);
+}
+
+.copyright{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.footer_right{
+  display: table-cell;
+}
+
+.footer_menu{
+  display: table;
+}
+
+.footer_menu_column{
+  display: table-cell;
+  padding-left: 80px;
+}
+
+.footer_menu_header{
+  color: rgb(233, 234, 236);
+  padding-bottom: 18px;
+}
+
+.footer_menu_text{
+  color: rgb(208, 179, 24);
+  padding-bottom: 10px;
+}
+
+.footer_links{
+  display: table;
+}
+
+.footer_media_info{
+  padding-top: 60px;
+  padding-left: 80px;
+  display: table-cell;
+  color: rgb(233, 234, 236);
+  padding-right: 100px;
+}
+
+.socialIcon{
+  color: rgb(208, 179, 24);
+  height: 50px;
+  margin-left: 20px;
 }
 
 a{
