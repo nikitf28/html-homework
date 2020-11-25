@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Comic Sans MS; /* Гарнитура шрифта */
+    src: url(fonts/ComicSansMS.ttf); /* Путь к файлу со шрифтом */
+}
+
 body{
   font-family: sans-serif;
   font-size: 15px;
