@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Comic Sans MS; /* Гарнитура шрифта */
-    src: url(fonts/ComicSansMS.ttf); /* Путь к файлу со шрифтом */
+    font-family: ComicS; /* Гарнитура шрифта */
+    src: url(../fonts/ComicSansMS.ttf); /* Путь к файлу со шрифтом */
 }
 
 body{
@@ -19,7 +19,7 @@ header{
 .shopTitile{
   color: white;
   font-size: 60px;
-  font-family: Comic Sans MS;
+  font-family: ComicS;
   margin-top: 50px;
   margin-left: 100px;
 }
