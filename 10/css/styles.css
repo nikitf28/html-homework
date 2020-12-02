@@ -16,14 +16,19 @@ header{
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  text-align: center;
+  padding-bottom: 30px;
 }
+
+
 
 .shopTitile{
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-family: ComicS;
-  margin-top: 50px;
-  margin-left: 100px;
+  display: inline-block;
+  user-select: none;  
+  /*margin-left: 100px;*/
 }
 
 .olya{
@@ -35,32 +40,83 @@ header{
 }
 
 .search{
+  display: inline-block;
   border-color: rgb(255, 71, 71);
+  background: rgb(255, 71, 71);
   border-width: 5px;
   border-style: solid;
   width: auto;
-  border-radius: 5px;
+  border-radius: 3px;
+  width: 800px;
+  align-items: center;
+  vertical-align: middle;
+  height: 36px;
+  padding-left: 2px;
+  margin-top: -20px;
+  margin-left: 50px;
 }
 
 .searchBar{
-  height: 30px;
+  height: 34px;
   margin: 0;
+  vertical-align: top;
+  margin-left: -2px;
+  width: 550px;
+  border-color: white;
+  border-width: 0px;
+  border-right-width: 4px;
+  border-right-color: #d6d6d6;
+  padding-left: 15px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.searchBar:focus{
+  outline:none;
 }
 
 .searchCategories{
-    height: 30px;
+    height: 36px;
     margin: 0px;
+    margin-left: -7px;
+    vertical-align: top;
+    z-index: 4;
+    width: 185px;
+    border-width: 0px;
+    color: gray;
+    padding-left: 15px;
+}
+
+option{
+  color: black;
+}
+
+.searchCategories:focus{
+  outline:none;
 }
 
 .searchBtn{
   background: rgb(255, 71, 71);
   border: none;
+  margin-left: 0px;
+  vertical-align: top;
+  z-index: 5;
+}
+
+.searchBtn:focus{
+  outline:none;
 }
 
 .searchPic{
   width: 30px;
-  height: 30px;
+  height: 31px;
+  margin-left: 0px;
+  z-index: 6;
   filter: invert(1);
+}
+
+.searchPic:focus{
+  outline:none;
 }
 
 footer{
@@ -127,12 +183,6 @@ footer::after{
 }
 
 .blog::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.search::after{
   content: "";
   display: block;
   clear: both;
