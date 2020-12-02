@@ -36,8 +36,20 @@ header{
 
 .search{
   border-color: rgb(255, 71, 71);
-  border-width: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: auto;
+  border-radius: 5px;
+}
+
+.searchBar{
   height: 30px;
+  margin: 0;
+}
+
+.searchCategories{
+    height: 30px;
+    margin: 0px;
 }
 
 .searchBtn{
@@ -90,7 +102,6 @@ footer{
 
 
 
-
 header::after{
   content: "";
   display: block;
@@ -116,6 +127,12 @@ footer::after{
 }
 
 .blog::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.search::after{
   content: "";
   display: block;
   clear: both;
