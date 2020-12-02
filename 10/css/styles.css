@@ -34,10 +34,21 @@ header{
   color: rgb(231, 46, 4);
 }
 
+.search{
+  border-color: rgb(255, 71, 71);
+  border-width: 10px;
+  height: 30px;
+}
+
 .searchBtn{
-  background: url(images/search.png);
+  background: rgb(255, 71, 71);
+  border: none;
+}
+
+.searchPic{
   width: 30px;
   height: 30px;
+  filter: invert(1);
 }
 
 footer{
