@@ -94,7 +94,7 @@
 
 @keyframes anim_story_1 {
   0%{
-    right: 2000px;
+    right: 1860px;
     display: block;
     opacity: 1;
   }
@@ -124,13 +124,13 @@
     opacity: 1;
   }
   100%{
-    right: 2000px;
+    right: 1860px;
   }
 }
 
 @keyframes anim_story_2 {
   0%{
-    right: 1780px;
+    right: 1640px;
     display: block;
     opacity: 1;
   }
@@ -160,13 +160,13 @@
     opacity: 1;
   }
   100%{
-    right: 1780px;
+    right: 1640px;
   }
 }
 
 @keyframes anim_story_3 {
   0%{
-    right: 1560px;
+    right: 1420px;
     display: block;
     opacity: 1;
   }
@@ -196,13 +196,13 @@
     opacity: 1;
   }
   100%{
-    right: 1560px;
+    right: 1420px;
   }
 }
 
 @keyframes anim_story_4 {
   0%{
-    right: 1340px;
+    right: 1200px;
     display: block;
     opacity: 1;
   }
@@ -231,14 +231,14 @@
     opacity: 1;
   }
   100%{
-    right: 1340px;
+    right: 1200px;
   }
 }
 
 
 @keyframes anim_story_5 {
   0%{
-    right: 1120px;
+    right: 980px;
     display: block;
     opacity: 1;
   }
@@ -268,14 +268,14 @@
     opacity: 1;
   }
   100%{
-    right: 1120px;
+    right: 980px;
   }
 }
 
 
 @keyframes anim_story_6 {
   0%{
-    right: 900px;
+    right: 760px;
     display: block;
     opacity: 1;
   }
@@ -304,13 +304,13 @@
     opacity: 1;
   }
   100%{
-    right: 900px;
+    right: 760px;
   }
 }
 
 @keyframes anim_story_7 {
   0%{
-    right: 680px;
+    right: 540px;
     display: block;
     opacity: 1;
   }
@@ -340,13 +340,13 @@
     opacity: 1;
   }
   100%{
-    right: 680px;
+    right: 540px;
   }
 }
 
 @keyframes anim_story_8 {
   0%{
-    right: 460px;
+    right: 320px;
     display: block;
     opacity: 1;
   }
@@ -375,14 +375,14 @@
     opacity: 1;
   }
   100%{
-    right: 460px;
+    right: 320px;
   }
 }
 
 
 @keyframes anim_story_9 {
   0%{
-    right: 240px;
+    right: 100px;
     display: block;
     opacity: 1;
   }
@@ -411,6 +411,6 @@
     opacity: 1;
   }
   100%{
-    right: 240px;
+    right: 100px;
   }
 }
