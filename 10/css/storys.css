@@ -11,7 +11,7 @@
 }
 
 #story_1{
-  left: 0px;
+  right: 0px;
   animation-name: anim_story_1;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -20,7 +20,7 @@
 }
 
 #story_2{
-  left: 220px;
+  right: 220px;
   animation-name: anim_story_2;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -29,7 +29,7 @@
 }
 
 #story_3{
-  left: 440px;
+  right: 440px;
   animation-name: anim_story_3;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -38,7 +38,7 @@
 }
 
 #story_4{
-  left: 660px;
+  right: 660px;
   animation-name: anim_story_4;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -47,7 +47,7 @@
 }
 
 #story_5{
-  left: 880px;
+  right: 880px;
   animation-name: anim_story_5;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -56,7 +56,7 @@
 }
 
 #story_6{
-  left: 1100px;
+  right: 1100px;
   animation-name: anim_story_6;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -65,7 +65,7 @@
 }
 
 #story_7{
-  left: 1320px;
+  right: 1320px;
   animation-name: anim_story_7;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -74,7 +74,7 @@
 }
 
 #story_8{
-  left: 1540px;
+  right: 1540px;
   animation-name: anim_story_8;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -83,7 +83,7 @@
 }
 
 #story_9{
-  left: 1760px;
+  right: 1760px;
   animation-name: anim_story_9;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -94,269 +94,323 @@
 
 @keyframes anim_story_1 {
   0%{
-    left: 0%;
+    right: 2000px;
     display: block;
+    opacity: 1;
   }
   89%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   89.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   89.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   89.25%{
     display: none;
+    opacity: 0;
   }
 
   89.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 0%;
+    right: 2000px;
   }
 }
 
 @keyframes anim_story_2 {
   0%{
-    left: 10%;
+    right: 1780px;
     display: block;
+    opacity: 1;
   }
   78%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   78.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   78.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   78.25%{
     display: none;
+    opacity: 0;
   }
 
   78.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 10%;
+    right: 1780px;
   }
 }
 
 @keyframes anim_story_3 {
   0%{
-    left: 20%;
+    right: 1560px;
     display: block;
+    opacity: 1;
   }
   67%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   67.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   67.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   67.25%{
     display: none;
+    opacity: 0;
   }
 
   67.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 20%;
+    right: 1560px;
   }
 }
 
 @keyframes anim_story_4 {
   0%{
-    left: 30%;
+    right: 1340px;
     display: block;
+    opacity: 1;
   }
   56%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   56.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   56.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   56.25%{
     display: none;
+    opacity: 0;
   }
   56.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 30%;
+    right: 1340px;
   }
 }
 
 
 @keyframes anim_story_5 {
   0%{
-    left: 40%;
+    right: 1120px;
     display: block;
+    opacity: 1;
   }
   45%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   45.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   45.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   45.2%{
     display: none;
+    opacity: 0;
   }
 
   45.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 40%;
+    right: 1120px;
   }
 }
 
 
 @keyframes anim_story_6 {
   0%{
-    left: 50%;
+    right: 900px;
     display: block;
+    opacity: 1;
   }
   34%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   34.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   34.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   34.25%{
     display: none;
+    opacity: 0;
   }
   34.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 50%;
+    right: 900px;
   }
 }
 
 @keyframes anim_story_7 {
   0%{
-    left: 60%;
+    right: 680px;
     display: block;
+    opacity: 1;
   }
   23%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   23.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   23.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   23.25%{
     display: none;
+    opacity: 0;
   }
 
   23.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 60%;
+    right: 680px;
   }
 }
 
 @keyframes anim_story_8 {
   0%{
-    left: 70%;
+    right: 460px;
     display: block;
+    opacity: 1;
   }
   12%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   12.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   12.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   12.25%{
     display: none;
+    opacity: 0;
   }
   12.3%{
     z-index: 5;
     display: block;
+    opacity: 1;
   }
   100%{
-    left: 70%;
+    right: 460px;
   }
 }
 
 
 @keyframes anim_story_9 {
   0%{
-    left: 80%;
+    right: 240px;
     display: block;
+    opacity: 1;
   }
   1%{
-    left: 80%;
+    right: 100px;
     display: block;
+    opacity: 1;
   }
   1.1%{
     z-index: 0;
     display: none;
+    opacity: 0;
   }
   1.2%{
     display: none;
-    left: -20%;
+    opacity: 0;
+    right: 2100px;
   }
   1.25%{
     display: none;
+    opacity: 0;
   }
   1.3%{
     z-index: 5;
-    display: block
+    display: block;
+    opacity: 1;
   }
   100%{
-    left: 80%;
+    right: 240px;
   }
 }
