@@ -160,7 +160,8 @@ footer{
 }
 
 .blog{
-  background: cyan;
+  z-index: 4;
+  background: rgb(242, 242, 242);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -168,14 +169,15 @@ footer{
 }
 
 .story_container{
+  margin-top: 50px;
+  margin-bottom: 30px;
   height: 300px;
   width: 100%;
-  overflow: hidden;
 }
 
 .sidebar{
   z-index: 10;
-  height: 680px;
+  height: auto;
   background: purple;
   grid-column-start: 3;
   grid-column-end: 4;
