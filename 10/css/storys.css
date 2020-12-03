@@ -98,7 +98,7 @@
     display: block;
   }
   89%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   89.1%{
@@ -124,11 +124,11 @@
 
 @keyframes anim_story_2 {
   0%{
-    left: 11%;
+    left: 10%;
     display: block;
   }
   78%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   78.1%{
@@ -148,17 +148,17 @@
     display: block;
   }
   100%{
-    left: 11%;
+    left: 10%;
   }
 }
 
 @keyframes anim_story_3 {
   0%{
-    left: 22%;
+    left: 20%;
     display: block;
   }
   67%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   67.1%{
@@ -178,17 +178,17 @@
     display: block;
   }
   100%{
-    left: 22%;
+    left: 20%;
   }
 }
 
 @keyframes anim_story_4 {
   0%{
-    left: 33%;
+    left: 30%;
     display: block;
   }
   56%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   56.1%{
@@ -207,18 +207,18 @@
     display: block;
   }
   100%{
-    left: 33%;
+    left: 30%;
   }
 }
 
 
 @keyframes anim_story_5 {
   0%{
-    left: 44%;
+    left: 40%;
     display: block;
   }
   45%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   45.1%{
@@ -238,18 +238,18 @@
     display: block;
   }
   100%{
-    left: 44%;
+    left: 40%;
   }
 }
 
 
 @keyframes anim_story_6 {
   0%{
-    left: 55%;
+    left: 50%;
     display: block;
   }
   34%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   34.1%{
@@ -268,17 +268,17 @@
     display: block;
   }
   100%{
-    left: 55%;
+    left: 50%;
   }
 }
 
 @keyframes anim_story_7 {
   0%{
-    left: 66%;
+    left: 60%;
     display: block;
   }
   23%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   23.1%{
@@ -298,17 +298,17 @@
     display: block;
   }
   100%{
-    left: 66%;
+    left: 60%;
   }
 }
 
 @keyframes anim_story_8 {
   0%{
-    left: 77%;
+    left: 70%;
     display: block;
   }
   12%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   12.1%{
@@ -327,18 +327,18 @@
     display: block;
   }
   100%{
-    left: 77%;
+    left: 70%;
   }
 }
 
 
 @keyframes anim_story_9 {
   0%{
-    left: 88%;
+    left: 80%;
     display: block;
   }
   1%{
-    left: 90%;
+    left: 80%;
     display: block;
   }
   1.1%{
@@ -357,6 +357,6 @@
     display: block
   }
   100%{
-    left: 88%;
+    left: 80%;
   }
 }
