@@ -8,14 +8,16 @@
   transition: linear;
   user-select: none;
   overflow: hidden;
+  --speed: 80s;
 }
+
 
 #story_1{
   right: 0px;
   animation-name: anim_story_1;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -24,7 +26,7 @@
   animation-name: anim_story_2;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -33,7 +35,7 @@
   animation-name: anim_story_3;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -42,7 +44,7 @@
   animation-name: anim_story_4;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -51,7 +53,7 @@
   animation-name: anim_story_5;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -60,7 +62,7 @@
   animation-name: anim_story_6;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -69,7 +71,7 @@
   animation-name: anim_story_7;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -78,7 +80,7 @@
   animation-name: anim_story_8;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
@@ -87,7 +89,7 @@
   animation-name: anim_story_9;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 60s;
+  animation-duration: var(--speed);
   animation-direction: normal;
 }
 
