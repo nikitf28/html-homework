@@ -4,7 +4,7 @@
 }
 
 html{
-  /*overflow-x: hidden;*/
+  max-width: 1920px;
 }
 
 body{
@@ -169,7 +169,8 @@ footer{
 
 .story_container{
   height: 300px;
-  margin: auto;
+  width: 100%;
+  overflow: hidden;
 }
 
 .sidebar{
