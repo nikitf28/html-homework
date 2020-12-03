@@ -1,9 +1,6 @@
-.img_container {
-
-}
-
 .slide_img {
-  position:absolute;
+  position: absolute;
+  border-radius: 10px;
   transition: opacity 1s ease-in-out;
 }
 
@@ -114,7 +111,7 @@
   animation-name: anim1;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-direction: normal;
 }
 
@@ -123,7 +120,7 @@
   animation-name: anim2;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-direction: normal;
 }
 
@@ -132,7 +129,7 @@
   animation-name: anim3;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-direction: normal;
 }
 
@@ -141,6 +138,6 @@
   animation-name: anim4;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-direction: normal;
 }

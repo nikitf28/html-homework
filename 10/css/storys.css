@@ -1,0 +1,109 @@
+.story{
+  position: absolute;
+  height: 250px;
+  border-radius: 20px;
+  z-index: 5;
+  transition: linear;
+}
+
+#story_1{
+  left: 10px;
+  animation-delay: 0s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_2{
+  left: 230px;
+  animation-delay: 10s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_3{
+  left: 450px;
+  animation-delay: 20s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_4{
+  left: 670px;
+  animation-delay: 30s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_5{
+  left: 890px;
+  animation-delay: 40s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_6{
+  left: 1110px;
+  animation-delay: 50s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_7{
+  left: 1330px;
+  animation-delay: 60s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_8{
+  left: 1550px;
+  animation-delay: 70s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+#story_9{
+  left: 1770px;
+  animation-delay: 80s;
+  animation-name: anim5;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 90s;
+  animation-direction: normal;
+}
+
+
+@keyframes anim5 {
+  0% {
+    left: -100px;
+
+
+
+  100%{
+    left: 1770px;
+  }
+}

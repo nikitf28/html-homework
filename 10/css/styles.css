@@ -3,9 +3,13 @@
     src: url(../fonts/ComicSansMS.ttf); /* Путь к файлу со шрифтом */
 }
 
+html{
+  /*overflow-x: hidden;*/
+}
+
 body{
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 33.33%);
   grid-template-rows: repeat(4, auto);
   margin: 0px;
 }
@@ -27,7 +31,7 @@ header{
   font-size: 50px;
   font-family: ComicS;
   display: inline-block;
-  user-select: none;  
+  user-select: none;
   /*margin-left: 100px;*/
 }
 
@@ -129,16 +133,33 @@ footer{
 }
 
 .promo{
-  height: 200px;
-  background: red;
+  /*height: 200px;*/
+  background: rgb(242, 242, 242);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
+.gradientPromo{
+  background: linear-gradient(to bottom, rgb(231, 231, 231), rgb(242, 242, 242));
+  height: 20px;
+}
+
+.img_container {
+  margin: 20px auto 40px auto;
+  /*position: relative;*/
+  height: 300px;
+  width: 750px;
+}
+
+.img_container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .blog{
-  height: 200px;
   background: cyan;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -146,8 +167,14 @@ footer{
   grid-row-end: 4;
 }
 
+.story_container{
+  height: 300px;
+  margin: auto;
+}
+
 .sidebar{
-  height: 400px;
+  z-index: 10;
+  height: 680px;
   background: purple;
   grid-column-start: 3;
   grid-column-end: 4;
