@@ -1,0 +1,32 @@
+
+.inner-grid{
+  display: grid;
+  grid-template-rows: auto auto 270px;
+}
+
+.catalog-grid{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.sort{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.filter{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.good{
+  height: 100px;
+  width: 200px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
