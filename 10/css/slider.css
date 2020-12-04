@@ -2,7 +2,27 @@
   position: absolute;
   border-radius: 10px;
   transition: linear;
+  width: 900px;
 }
+
+@media (max-width: 1450px) {
+  .slide_img{
+    width: 700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .slide_img{
+    width: 600px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slide_img{
+    width: 500px;
+  }
+}
+
 
 #slide_1{
   z-index: 4;
