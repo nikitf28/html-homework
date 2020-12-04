@@ -10,6 +10,7 @@ body{
   grid-template-rows: repeat(4, auto);
   margin: 0px;
   font-family: sans-serif;
+  user-select: none;
 }
 
 header{
@@ -119,15 +120,6 @@ option{
 
 .searchPic:focus{
   outline:none;
-}
-
-footer{
-  height: 200px;
-  background: green;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
 }
 
 .promo{
@@ -281,6 +273,8 @@ footer{
   z-index: 20;
 }
 
+
+
 .registerBtn:focus{
   outline:none;
 }
@@ -303,6 +297,74 @@ footer{
 
 .couponImg{
   margin: 0px auto;
+}
+
+
+footer{
+  height: 200px;
+  background: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.socialMedia{
+  float: left;
+  margin-left: 100px;
+}
+
+.followUsFont{
+  font-size: 25px;
+  /*font-weight: bold;*/
+  margin-bottom: 15px;
+}
+
+.mediaIcon{
+  float: left;
+  height: 40px;
+  margin-right: 18px;
+  margin-left: -8px;
+  user-select: none;
+}
+
+.copyright{
+  margin-top: 50px;
+  float: left;
+  font-size: 18px;
+}
+
+.bottomCol{
+  float: left;
+  margin-left: 80px;
+}
+
+.bottomHeader{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottomItem{
+  font-size: 15px;
+  color: rgb(120, 120, 120);
+}
+
+.discount{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 100px;
+  width: 100px;
+  background: url(../images/percentage.png);
+  z-index: 100;
+  background-size: cover;
+}
+
+.discount:hover{
+  background: url(../images/promotional.png);
+  background-size: cover;
 }
 
 header::after{
