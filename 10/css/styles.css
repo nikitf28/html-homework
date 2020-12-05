@@ -302,9 +302,8 @@ option{
 
 
 footer{
-  height: 200px;
+
   background: white;
-  
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -337,6 +336,7 @@ footer{
 .bottomCol{
   float: left;
   margin-left: 80px;
+  padding-bottom: 10px;
 }
 
 .bottomHeader{
