@@ -1,3 +1,6 @@
+body{
+  background: rgb(242, 242, 242);
+}
 
 .inner-grid{
   display: grid;
@@ -5,12 +8,18 @@
 }
 
 .catalog-grid{
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(3, auto);
+  max-width: 1550px;
   background: rgb(242, 242, 242);
 }
 
 .sort{
+  padding-left: 5%;
+  padding-left: auto;
+  padding-right: auto;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -117,7 +126,7 @@
 }
 
 .filterBox{
-  float: right;
+  float: left;
   margin-right: 30px;
   padding-top: 25px;
   padding-left: 30px;
@@ -144,9 +153,93 @@
 }
 
 .good{
-  height: 100px;
-  width: 200px;
-  border-color: black;
-  border-style: solid;
-  border-width: 5px;
+  background: white;
+  width: 350px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  height: 528px;
+}
+
+.gooodsImage{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.goodsInfo{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.goodsTitle{
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 16px;
+  color: rgb(50, 50, 50);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+}
+
+.goodsPrice{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+}
+
+.goodsShipping{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color:  rgb(120, 120, 120);
+  float: left;
+  width: 100%;
+}
+
+.goodsRate{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color:  rgb(120, 120, 120);
+  width: 50px;
+  float: left;
+}
+
+.goodsSold{
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color:  rgb(120, 120, 120);
+  width: 150px;
+  float: right;
+}
+
+.goodsShop{
+  float: left;
+  font-size: 14px;
+  color:  rgb(120, 120, 120);
+  text-decoration: underline;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.star{
+  color: red;
+}
+
+@media (max-width: 1200px){
+  .good{
+    width: 300px;
+  }
 }
