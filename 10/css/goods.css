@@ -14,6 +14,7 @@ body{
   grid-template-columns: repeat(3, auto);
   max-width: 1550px;
   background: rgb(242, 242, 242);
+  position: relative;
 }
 
 .sort{
@@ -163,9 +164,21 @@ body{
 }
 
 .gooodsImage{
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  z-index: 1;
+}
+
+.hiddenImage:hover {
+  opacity: 1;
+}
+
+.hiddenImage{
+  position: absolute;
+  width: 350px;
+  opacity: 0;
+  z-index: 5;
 }
 
 .goodsInfo{
@@ -240,6 +253,9 @@ body{
 
 @media (max-width: 1200px){
   .good{
+    width: 300px;
+  }
+  .hiddenImage{
     width: 300px;
   }
 }
