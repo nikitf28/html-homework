@@ -1,0 +1,11 @@
+.places li {
+  border-bottom: 2px solid #cccccc;
+}
+
+.places li li {
+  border-bottom: 0px solid #cccccc;
+}
+
+.places span {
+  font-weight: bold;
+}
