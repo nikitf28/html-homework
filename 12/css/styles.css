@@ -1,0 +1,62 @@
+@font-face {
+    font-family: ComicS; /* Гарнитура шрифта */
+    src: url(../fonts/ComicSansMS.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.red{
+  color: red;
+}
+
+.black{
+  color: black;
+}
+
+.card{
+  width: 210px;
+  height: 310px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  float: left;
+  margin-left: 30px;
+  top: 500px;
+  position: relative;
+}
+
+.card:hover{
+  top: 100px;
+}
+
+.number{
+  font-size: 35px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.suit-small{
+  font-size: 45px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.suit-central{
+  font-size: 110px;
+  text-align: center;
+  width: 100%;
+}
+
+.reverse{
+  transform: rotate(180deg);
+  margin-left: auto;
+  margin-right: 0;
+}
