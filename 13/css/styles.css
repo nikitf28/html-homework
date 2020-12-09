@@ -1,0 +1,17 @@
+.optionWrapper{
+  float: left;
+  margin-right: 30px;
+}
+
+.hiddenOptions{
+  position: absolute;
+  display: none;
+}
+
+.option{
+  height: 37px;
+}
+
+.optionWrapper:hover .hiddenOptions{
+  display: block;
+}
