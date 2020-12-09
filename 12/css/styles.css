@@ -7,6 +7,10 @@ body{
   background-image: url(../images/background.jpg);
   background-size: cover;
   font-family: sans-serif;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-gap: 30px;
+  user-select: none;
 }
 
 .red{
@@ -17,20 +21,40 @@ body{
   color: black;
 }
 
+.wrapper{
+  margin-top: 500px;
+  position: relative;
+  background-image: url(../images/card.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
 .card{
+  top: 0px;
   width: 210px;
   height: 310px;
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  float: left;
-  margin-left: 30px;
-  top: 500px;
   position: relative;
+
+  transition: linear;
+  animation-name: anim_2;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
-.card:hover{
-  top: 100px;
+.wrapper:hover .card{
+  transition: linear;
+  animation-name: anim_1;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
 .number{
