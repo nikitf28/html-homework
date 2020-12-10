@@ -1,17 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+  background: black;
+  height: 60px;
+}
+
+
 .optionWrapper{
   float: left;
   margin-right: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  position: relative;
 }
 
 .hiddenOptions{
   position: absolute;
   display: none;
+  margin-top: 5px;
+  background: rgb(220, 220, 220);
+  padding: 15px;
+  max-width: 400px;
+}
+
+.hiddenOption{
+  padding: 14px;
+}
+
+.hiddenOption:hover{
+  color: #228B22;
+  font-weight: bold;
+}
+
+.hiddenOption:not(:last-child){
+  border-bottom: 1px rgb(180, 180, 180) solid;
+}
+
+.optionWrapper{
+  font-size: 20px;
+}
+
+.optionWrapper:after
+{
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
 }
 
 .option{
-  height: 37px;
+  color: white;
+  color: rgb(175, 175, 175);
+}
+
+.option::after{
+  content: "▼";
+  font-size: 18px;
 }
 
 .optionWrapper:hover .hiddenOptions{
   display: block;
 }
+
+.optionWrapper:hover .option{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+/*
+.hiddenOptions:hover{
+  display: block;
+}
+
+.hiddenOptions:hover .option{
+  color: white;
+}
+*/
