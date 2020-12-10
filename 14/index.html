@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Создание аккаунта – ПАО "Бабрафлот"</title>
+        <link rel="stylesheet" type="text/css" href="./css/stylesMain.css">
+    </head>
+    <body>
+      <div class="backgr">
+        <h1>Регистрация аккаунта Бабрафлот</h1>
+        <form action="http://s2.dolbak.ru/babraflor/registerUser" method="post" oninput="change.value=flyYear.value">
+          <label>Фамилия <span class="req">*</span><br><input class="field" type="text" name="FamilyName" required></label><br>
+          <label>Имя <span class="req">*</span><br><input class="field" type="text" name="FirstName" required></label><br>
+          <label>Отчество <span class="req">*</span><br><input class="field" type="text" name="FatherName" required></label><br>
+          <label>Пол <span class="req">*</span><br>
+            <input class="btn" type="radio" name="gender" value="1" checked>Мужской<br>
+            <input class="btn" type="radio" name="gender" value="2">Женский<br>
+          </label>
+          <label>Дата рождения <span class="req">*</span><br><input class="field" type="date" name="bDate" required></label><br>
+          <label>Номер телефона <span class="req">*</span><br><input class="field" type="tel" name="phone" required></label><br>
+          <label>E-mail <span class="req">*</span><br><input class="field" type="email" name="email" required></label><br>
+          <label>Придумайте пароль <span class="req">*</span><br><input class="field" type="password" name="pwd" required></label><br>
+          <label>Подтвердите пароль <span class="req">*</span><br><input class="field" type="password" name="pwd2" required></label><br>
+          <label>Номер бонусной карты Бабрафлот<br><input class="field" type="text" name="bonusCard"></label><br>
+          <label>
+            Для чего вы пользуетесь услугами нашей авиакомпании?<br>
+            <select class="field" name="reason">
+              <option value="travel">Путешествия</option>
+              <option value="family">Семейный отдых</option>
+              <option value="busines">Езжу по работе</option>
+            </select>
+          </label><br>
+          <label>
+            Сколько раз в год вы пользуетесь услугами любых авиакомпаний?<br>
+            0<input class="btn" type="range" name="flyYear" id="flyYear" min="0" max="12" value="2" step="1">12<br>
+            <output name="change"></output>
+          </label><br>
+          <label>Соглашаюсь с правилами сервиса <span class="req">*</span><br><input class="btn" type="checkbox" name="readRules" required></label><br>
+          <label>Хочу получать новостную рассылку<br><input class="btn" type="checkbox" name="news"></label><br>
+          <br>
+          <input class="btn sBtn" type="submit" value="Зарегистрироваться">
+          <br>
+          <span class="req">*</span>  Поля, обязательные для заполнения
+        </form>
+      </div>
+    </body>
+</html>
